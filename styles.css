@@ -67,9 +67,7 @@ nav ul li a:hover {
   justify-content: center;
   grid-template-columns: 300px 300px;
   gap: 20px;
-  height: 420px;
-  margin-top: 50px;
-  border-radius: 20px;
+  margin-top: 20px;
 }
 .item1 {
   background-color: rgb(2, 71, 175);
@@ -78,7 +76,6 @@ nav ul li a:hover {
   text-align: center;
   padding-top: 30px;
   font-size: 30px;
-  margin-top: 40px;
 }
 .item1 img {
   width: 200px;
@@ -90,7 +87,6 @@ nav ul li a:hover {
   text-align: center;
   padding-top: 30px;
   font-size: 30px;
-  margin-top: 40px;
 }
 .item2 img {
   width: 200px;
