@@ -101,7 +101,7 @@ nav ul li a:hover {
     grid-template-columns: 1fr;
   }
   .boxes img {
-    width: 370px;
+    width: 300px;
   }
   nav ul {
     display: none;
