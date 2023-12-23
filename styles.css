@@ -57,8 +57,10 @@ nav ul li a:hover {
   background-color: white;
   grid-template-columns: 1fr;
   justify-items: center;
+  height: 500px;
 }
 .boxes {
+  margin-top: 40px;
 }
 
 .box-items {
@@ -103,6 +105,43 @@ nav ul li a:hover {
 .item3 img {
   margin-top: -30px;
   width: 200px;
+}
+
+.header-bottom {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(2, 71, 175);
+  background-color: white;
+  margin-top: 20px;
+}
+.content-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.bubble {
+  height: 300px;
+  width: 200px;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 5px;
+}
+.super-bubble {
+  height: 300px;
+  width: 200px;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 5px;
+}
+.ultimate-bubble {
+  height: 300px;
+  width: 200px;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 5px;
 }
 /*tablet size */
 @media screen and (max-width: 1000px) {
