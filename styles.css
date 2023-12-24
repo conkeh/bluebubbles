@@ -57,7 +57,7 @@ nav ul li a:hover {
   background-color: white;
   grid-template-columns: 1fr;
   justify-items: center;
-  height: 500px;
+  height: 1fr;
 }
 .boxes {
   margin-top: 40px;
@@ -65,7 +65,6 @@ nav ul li a:hover {
 
 .box-items {
   display: grid;
-
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -106,45 +105,53 @@ nav ul li a:hover {
   margin-top: -30px;
   width: 200px;
 }
-
-.header-bottom {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  color: rgb(2, 71, 175);
-  background-color: white;
-  margin-top: 20px;
-}
-.content-bottom {
-  display: flex;
-  justify-content: space-between;
+.member {
+  display: grid;
+  grid-template-columns: 1fr;
   color: white;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(2, 71, 175);
   margin-top: 20px;
+  padding: 10px;
+}
+.container-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.cards {
+  background-color: rgb(196, 57, 57);
+}
+.cards .header-bottom {
+  height: 50px;
+  background-color: gray;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.cards .content-bottom {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+span {
+  font-style: italic;
+  font-size: 40px;
+}
+.notes {
+  margin-top: 20px;
+  margin-left: 20px;
   font-weight: bold;
-}
-.bubble {
-  height: 300px;
-  width: 200px;
-  background-color: blueviolet;
-  text-align: center;
-  border-radius: 5px;
-}
-.super-bubble {
-  height: 300px;
-  width: 200px;
-  background-color: blueviolet;
-  text-align: center;
-  border-radius: 5px;
-}
-.ultimate-bubble {
-  height: 300px;
-  width: 200px;
-  background-color: blueviolet;
-  text-align: center;
-  border-radius: 5px;
+  font-style: italic;
 }
 /*tablet size */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .box-items {
     grid-template-columns: 1fr;
   }
@@ -153,5 +160,8 @@ nav ul li a:hover {
   }
   nav ul {
     display: none;
+  }
+  .container-bottom {
+    grid-template-columns: 1fr;
   }
 }
