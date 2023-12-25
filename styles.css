@@ -78,6 +78,7 @@ nav ul li a:hover {
 }
 .box-items span {
   font-size: 15px;
+  font-weight: bold;
 }
 .item1 {
   background-color: rgb(2, 71, 175);
@@ -88,7 +89,7 @@ nav ul li a:hover {
   font-size: 30px;
 }
 .item1 img {
-  width: 110px;
+  width: 130px;
   margin-top: 5px;
 }
 .item2 {
@@ -115,6 +116,26 @@ nav ul li a:hover {
   margin-top: -30px;
   width: 200px;
 }
+.pricelist-satuan {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.header-pricelist-satuan {
+  color: white;
+  background-color: rgb(2, 71, 175);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.pricelist-satuan li {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
 .member {
   display: grid;
   grid-template-columns: 1fr;
@@ -150,7 +171,7 @@ nav ul li a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-span {
+.cards .content-bottom span {
   font-style: italic;
   font-size: 40px;
 }
@@ -172,6 +193,9 @@ span {
     display: none;
   }
   .container-bottom {
+    grid-template-columns: 1fr;
+  }
+  .pricelist-satuan {
     grid-template-columns: 1fr;
   }
 }
