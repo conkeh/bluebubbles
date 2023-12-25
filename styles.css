@@ -134,6 +134,7 @@ nav ul li a:hover {
   justify-content: space-between;
   background-color: aliceblue;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .member {
