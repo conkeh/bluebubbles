@@ -221,12 +221,14 @@ nav ul li a:hover {
 }
 .instagram-icon {
   font-size: 50px;
-  color: rgb(2, 71, 175);
-  .fa-square-instagram:hover {
-    color: white;
-    cursor: pointer;
-  }
+  margin-top: 20px;
 }
+
+.fa-instagram:hover {
+  color: red;
+  cursor: pointer;
+}
+
 /*tablet size */
 @media screen and (max-width: 600px) {
   .box-items {
@@ -246,5 +248,8 @@ nav ul li a:hover {
   }
   .container-harga-kiloan {
     grid-template-columns: 1fr;
+  }
+  .instagram-icon {
+    text-align: center;
   }
 }
