@@ -219,6 +219,14 @@ nav ul li a:hover {
   font-weight: bold;
   font-style: italic;
 }
+.instagram-icon {
+  font-size: 50px;
+  color: rgb(2, 71, 175);
+  .fa-square-instagram:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
 /*tablet size */
 @media screen and (max-width: 600px) {
   .box-items {
