@@ -129,6 +129,13 @@ nav ul li a:hover {
   text-align: center;
   font-size: 40px;
 }
+.container-pricelist-satuan li {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 5px;
+}
 .harga-kiloan {
   display: grid;
   grid-template-columns: 1fr;
