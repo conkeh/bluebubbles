@@ -160,14 +160,27 @@ nav ul li a:hover {
 }
 .container-harga-kiloan {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
-.card li {
-  list-style-type: none;
+.card h2 {
+  background-color: rgb(196, 57, 57);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card .content {
   background-color: aliceblue;
   font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
+
 .member {
   color: white;
   height: 50px;
