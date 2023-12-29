@@ -54,21 +54,22 @@ nav ul li a:hover {
 }
 .container {
   display: grid;
-  background-color: white;
   grid-template-columns: 1fr;
   justify-items: center;
   height: 1fr;
+  background-color: aliceblue;
 }
-.boxes {
-  margin-top: 40px;
-}
+
 .clock {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   color: rgb(2, 71, 175);
+  margin-top: 30px;
 }
-
+.boxes {
+  margin-top: -20px;
+}
 .box-items {
   display: grid;
   justify-content: center;
