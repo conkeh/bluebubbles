@@ -60,3 +60,8 @@ form input[type="submit"] {
   border-radius: 5px;
   font-size: 30px;
 }
+@media screen and (max-width: 600px) {
+  .card-content {
+    width: 350px;
+  }
+}
