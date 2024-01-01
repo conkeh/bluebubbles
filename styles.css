@@ -6,14 +6,14 @@ body {
   margin: 50px;
   height: 6000px;
   font-family: roboto, arial;
-  background-color: rgb(241, 223, 121);
+  background-color: rgb(185, 213, 242);
 }
 nav {
   display: flex;
   background-color: rgb(2, 71, 175);
   justify-content: space-around;
   height: 50px;
-  color: rgb(198, 248, 15);
+  color: rgb(242, 7, 7);
   align-items: center;
 }
 span {
@@ -146,7 +146,7 @@ nav ul li a:hover {
 }
 .header-kiloan {
   color: white;
-  background-color: gray;
+  background-color: #6067a6;
   height: 50px;
   font-size: 20px;
   font-weight: bold;
@@ -160,7 +160,7 @@ nav ul li a:hover {
   gap: 20px;
 }
 .card h2 {
-  background-color: rgb(196, 57, 57);
+  background-color: rgb(18, 177, 202);
   color: white;
   font-size: 20px;
   text-align: center;
