@@ -257,7 +257,7 @@ nav ul li a:hover {
     text-align: center;
   }
   iframe {
-    width: 300px;
-    text-align: center;
+    width: 375px;
+    grid-template-columns: 1fr;
   }
 }
