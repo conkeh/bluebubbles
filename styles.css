@@ -253,4 +253,7 @@ nav ul li a:hover {
   .instagram-icon {
     text-align: center;
   }
+  iframe {
+    width: 300px;
+  }
 }
