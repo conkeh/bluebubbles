@@ -48,12 +48,13 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #68cff1;
+  background-color: #ef813c;
+  border: none;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #2d1bec;
 }
